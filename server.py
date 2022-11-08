@@ -10,7 +10,7 @@ class Calculadora(rpyc.Service):
         pass
 
     def on_disconnect(self, conn):
-        self.stop()
+        pass
         
     """
     #usamos esta funcion para establecer las variables de ecuaciones
